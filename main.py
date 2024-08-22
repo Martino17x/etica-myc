@@ -9,6 +9,7 @@ import time
 bot_bueno = BotBueno()
 bot_random = BotRandom()
 bot_random2 = BotRandom()
+bot_nazi = BotNazi()
 
 def Jugar(bot1: BotAbstract, bot2: BotAbstract):
     puntaje_bot1 = 0
