@@ -2,6 +2,7 @@ from arbitro import Arbitro
 from bot_bueno import BotBueno
 from bot_random import BotRandom
 from bot_abstract import BotAbstract
+from bot_nazi import BotNazi
 import winsound
 import time
 

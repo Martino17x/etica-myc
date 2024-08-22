@@ -6,12 +6,12 @@ class BotNazi(BotAbstract):
     def Nombre(sefl) -> str:
         return "Bot Nazi"
     
-    def jugar (self, jugada_numero: int, jugada_anterior: str) -> str:
-        if jugada_anterior is None:
+    def jugar (self, jugada_numero: int, jugada_previa_oponente: str) -> str:
+        if jugada_previa_oponente is None:
             return "M"
-        elif jugada_anterior == "M":
+        elif jugada_previa_oponente == "M":
             return "S"
-        elif jugada_anterior == "M":
+        elif jugada_previa_oponente == "M":
             return "M"
         else:
             return "S"
