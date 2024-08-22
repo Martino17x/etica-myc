@@ -1,6 +1,6 @@
 from bot_abstract import BotAbstract
 
-class BotNazi(BotAbstract)
+class BotNazi(BotAbstract):
 
     @property
     def Nombre(sefl) -> str:
